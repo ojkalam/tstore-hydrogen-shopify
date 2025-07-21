@@ -1,0 +1,25 @@
+{
+  "project": "tstore-hydrogen",
+  "type": "shopify-storefront",
+  "framework": "hydrogen-remix",
+  "language": "typescript",
+  "styling": "tailwind",
+  "testCommand": "npm run typecheck && npm run lint",
+  "devCommand": "npm run dev",
+  "buildCommand": "npm run build",
+  "important": [
+    "This is a Shopify Hydrogen storefront connected to tnmeats.myshopify.com",
+    "Always use TypeScript for new files",
+    "Follow existing code patterns and conventions",
+    "Use Tailwind CSS for styling",
+    "GraphQL queries should follow Shopify Storefront API schema",
+    "Environment variables are already configured in .env"
+  ],
+  "preferences": {
+    "componentStyle": "functional",
+    "stateManagement": "remix-loaders",
+    "errorHandling": "error-boundaries",
+    "importStyle": "named",
+    "asyncPattern": "async-await"
+  }
+}

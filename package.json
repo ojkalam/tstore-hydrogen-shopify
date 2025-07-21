@@ -1,0 +1,50 @@
+{
+  "name": "tstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "remix vite:dev",
+    "build": "remix vite:build",
+    "start": "remix-serve build/server/index.js",
+    "preview": "npm run build && npm run start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint app --ext .ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@remix-run/node": "^2.16.8",
+    "@remix-run/react": "^2.16.8",
+    "@remix-run/server-runtime": "^2.16.8",
+    "@shopify/hydrogen": "^2024.10.1",
+    "@shopify/hydrogen-react": "^2024.10.1",
+    "@shopify/remix-oxygen": "^3.0.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "isbot": "^5.1.28",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.16.8",
+    "@remix-run/serve": "^2.16.8",
+    "@shopify/oxygen-workers-types": "^4.1.10",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "autoprefixer": "^10.4.21",
+    "dotenv": "^17.2.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.0.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
